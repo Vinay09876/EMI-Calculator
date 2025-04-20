@@ -47,3 +47,22 @@ button:hover{
   font-weight: 700;
   text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  .container{
+    width: 400px;
+  }
+  .container input {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .container{
+    width: 300px;
+  }
+  .container input {
+    text-align: left;
+    width: 250px;
+  }
+}
